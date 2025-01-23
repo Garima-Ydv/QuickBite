@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.gfcontainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.gimage{
+    width: 500px;
+    height: auto;
+}
+.gform{
+    padding: 7px;
+    margin-left: 20px;
+}
+.gco{
+    padding: 5px;
+    margin: 10px;
+}
+input{
+    width: 18rem;
+    height: 1.7rem;
+}
+@media screen and (max-width:900px){
+    .gimage{
+        width: 25rem;
+        height: 25rem;
+        border-radius: 7px;
+    }
+    .gfcontainer{
+        display: flex;
+        flex-direction: column;
+    }
+}
